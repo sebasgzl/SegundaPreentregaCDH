@@ -61,7 +61,7 @@ function rendercard(producto) {
 <div class="card-body">
   <h5 class="card-title">${producto.id}.${producto.nombre}</h5>
   <p class="card-text">$ ${producto.precio}</p>
-  <a href="#" class="btn btn-primary botonDeCompras" id="${producto.id}">Agregar al Carrito</a>
+  <a href="#" class="btn btn-success botonDeCompras" id="${producto.id}">Agregar al Carrito</a>
 </div>
 </div>
     `
